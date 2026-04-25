@@ -1,0 +1,702 @@
+[
+    {
+        "hanzi": "我",
+        "pinyin": "wǒ",
+        "meaning": "나, 저",
+        "exampleZh": "我是韩国人。",
+        "exampleKo": "나는 한국인입니다."
+    },
+    {
+        "hanzi": "你",
+        "pinyin": "nǐ",
+        "meaning": "너, 당신",
+        "exampleZh": "你是谁？",
+        "exampleKo": "당신은 누구입니까?"
+    },
+    {
+        "hanzi": "他",
+        "pinyin": "tā",
+        "meaning": "그 (남자)",
+        "exampleZh": "他是我的朋友。",
+        "exampleKo": "그는 내 친구입니다."
+    },
+    {
+        "hanzi": "她",
+        "pinyin": "tā",
+        "meaning": "그녀",
+        "exampleZh": "她很漂亮。",
+        "exampleKo": "그녀는 매우 예쁩니다."
+    },
+    {
+        "hanzi": "学生",
+        "pinyin": "xuésheng",
+        "meaning": "학생",
+        "exampleZh": "我们都是学生。",
+        "exampleKo": "우리는 모두 학생입니다."
+    },
+    {
+        "hanzi": "朋友",
+        "pinyin": "péngyou",
+        "meaning": "친구",
+        "exampleZh": "他有很多朋友。",
+        "exampleKo": "그는 친구가 많습니다."
+    },
+    {
+        "hanzi": "学校",
+        "pinyin": "xuéxiào",
+        "meaning": "학교",
+        "exampleZh": "我去学校学习。",
+        "exampleKo": "나는 학교에 공부하러 갑니다."
+    },
+    {
+        "hanzi": "家",
+        "pinyin": "jiā",
+        "meaning": "집, 가족",
+        "exampleZh": "我家有三口人。",
+        "exampleKo": "우리 가족은 3명입니다."
+    },
+    {
+        "hanzi": "今天",
+        "pinyin": "jīntiān",
+        "meaning": "오늘",
+        "exampleZh": "今天天气很好。",
+        "exampleKo": "오늘 날씨가 매우 좋습니다."
+    },
+    {
+        "hanzi": "明天",
+        "pinyin": "míngtiān",
+        "meaning": "내일",
+        "exampleZh": "明天见。",
+        "exampleKo": "내일 만나요."
+    },
+    {
+        "hanzi": "吃",
+        "pinyin": "chī",
+        "meaning": "먹다",
+        "exampleZh": "我喜欢吃苹果。",
+        "exampleKo": "나는 사과 먹는 것을 좋아합니다."
+    },
+    {
+        "hanzi": "喝",
+        "pinyin": "hē",
+        "meaning": "마시다",
+        "exampleZh": "请喝茶。",
+        "exampleKo": "차를 드세요."
+    },
+    {
+        "hanzi": "去",
+        "pinyin": "qù",
+        "meaning": "가다",
+        "exampleZh": "你去哪里？",
+        "exampleKo": "당신은 어디에 가십니까?"
+    },
+    {
+        "hanzi": "看",
+        "pinyin": "kàn",
+        "meaning": "보다, 읽다",
+        "exampleZh": "我在看书。",
+        "exampleKo": "나는 책을 읽고 있습니다."
+    },
+    {
+        "hanzi": "听",
+        "pinyin": "tīng",
+        "meaning": "듣다",
+        "exampleZh": "请听我说。",
+        "exampleKo": "내 말 좀 들어보세요."
+    },
+    {
+        "hanzi": "买",
+        "pinyin": "mǎi",
+        "meaning": "사다",
+        "exampleZh": "我想买衣服。",
+        "exampleKo": "나는 옷을 사고 싶습니다."
+    },
+    {
+        "hanzi": "大",
+        "pinyin": "dà",
+        "meaning": "크다",
+        "exampleZh": "这个苹果很大。",
+        "exampleKo": "이 사과는 매우 큽니다."
+    },
+    {
+        "hanzi": "小",
+        "pinyin": "xiǎo",
+        "meaning": "작다",
+        "exampleZh": "那只狗很小。",
+        "exampleKo": "저 개는 매우 작습니다."
+    },
+    {
+        "hanzi": "多",
+        "pinyin": "duō",
+        "meaning": "많다",
+        "exampleZh": "这里有很多人。",
+        "exampleKo": "이곳에는 사람이 매우 많습니다."
+    },
+    {
+        "hanzi": "少",
+        "pinyin": "shǎo",
+        "meaning": "적다",
+        "exampleZh": "我的钱很少。",
+        "exampleKo": "나는 돈이 매우 적습니다."
+    },
+    {
+        "hanzi": "爱",
+        "pinyin": "ài",
+        "meaning": "사랑하다",
+        "exampleZh": "妈妈爱我。",
+        "exampleKo": "엄마는 나를 사랑한다."
+    },
+    {
+        "hanzi": "八",
+        "pinyin": "bā",
+        "meaning": "8, 여덟",
+        "exampleZh": "他买了八个苹果。",
+        "exampleKo": "그는 사과 8개를 샀다."
+    },
+    {
+        "hanzi": "爸爸",
+        "pinyin": "bàba",
+        "meaning": "아빠",
+        "exampleZh": "爸爸在工作。",
+        "exampleKo": "아빠는 일하고 계신다."
+    },
+    {
+        "hanzi": "杯子",
+        "pinyin": "bēizi",
+        "meaning": "컵, 잔",
+        "exampleZh": "桌子上有一个杯子。",
+        "exampleKo": "책상 위에 컵이 하나 있다."
+    },
+    {
+        "hanzi": "北京",
+        "pinyin": "Běijīng",
+        "meaning": "베이징",
+        "exampleZh": "我住在北京。",
+        "exampleKo": "나는 베이징에 산다."
+    },
+    {
+        "hanzi": "本",
+        "pinyin": "běn",
+        "meaning": "권 (책을 세는 양사)",
+        "exampleZh": "我有一本书。",
+        "exampleKo": "나는 책이 한 권 있다."
+    },
+    {
+        "hanzi": "不",
+        "pinyin": "bù",
+        "meaning": "아니다, ~하지 않다",
+        "exampleZh": "我不是老师。",
+        "exampleKo": "나는 선생님이 아니다."
+    },
+    {
+        "hanzi": "不客气",
+        "pinyin": "bú kèqi",
+        "meaning": "천만에요",
+        "exampleZh": "谢谢！ - 不客气。",
+        "exampleKo": "감사합니다! - 천만에요."
+    },
+    {
+        "hanzi": "菜",
+        "pinyin": "cài",
+        "meaning": "요리, 채소",
+        "exampleZh": "我喜欢吃中国菜。",
+        "exampleKo": "나는 중국 요리 먹는 것을 좋아한다."
+    },
+    {
+        "hanzi": "茶",
+        "pinyin": "chá",
+        "meaning": "차",
+        "exampleZh": "请喝杯茶。",
+        "exampleKo": "차 한 잔 드세요."
+    },
+    {
+        "hanzi": "出租车",
+        "pinyin": "chūzūchē",
+        "meaning": "택시",
+        "exampleZh": "我们坐出租车去。",
+        "exampleKo": "우리는 택시를 타고 간다."
+    },
+    {
+        "hanzi": "打电话",
+        "pinyin": "dǎ diànhuà",
+        "meaning": "전화하다",
+        "exampleZh": "他在打电话。",
+        "exampleKo": "그는 전화를 걸고 있다."
+    },
+    {
+        "hanzi": "的",
+        "pinyin": "de",
+        "meaning": "~의, ~한",
+        "exampleZh": "这是我的书。",
+        "exampleKo": "이것은 내 책이다."
+    },
+    {
+        "hanzi": "点",
+        "pinyin": "diǎn",
+        "meaning": "시 (시간)",
+        "exampleZh": "现在是八点。",
+        "exampleKo": "지금은 8시이다."
+    },
+    {
+        "hanzi": "电视",
+        "pinyin": "diànshì",
+        "meaning": "TV",
+        "exampleZh": "我不喜欢看电视。",
+        "exampleKo": "나는 TV 보는 것을 좋아하지 않는다."
+    },
+    {
+        "hanzi": "电影",
+        "pinyin": "diànyǐng",
+        "meaning": "영화",
+        "exampleZh": "昨天我看了电影。",
+        "exampleKo": "어제 나는 영화를 봤다."
+    },
+    {
+        "hanzi": "东西",
+        "pinyin": "dōngxi",
+        "meaning": "물건",
+        "exampleZh": "我在商店买东西。",
+        "exampleKo": "나는 상점에서 물건을 산다."
+    },
+    {
+        "hanzi": "都",
+        "pinyin": "dōu",
+        "meaning": "모두, 다",
+        "exampleZh": "我们都认识他。",
+        "exampleKo": "우리는 모두 그를 안다."
+    },
+    {
+        "hanzi": "读",
+        "pinyin": "dú",
+        "meaning": "읽다",
+        "exampleZh": "你会读这个字吗？",
+        "exampleKo": "이 글자를 읽을 줄 아나요?"
+    },
+    {
+        "hanzi": "对不起",
+        "pinyin": "duìbuqǐ",
+        "meaning": "미안합니다",
+        "exampleZh": "对不起，我来晚了。",
+        "exampleKo": "미안합니다, 늦게 왔습니다."
+    },
+    {
+        "hanzi": "多少",
+        "pinyin": "duōshao",
+        "meaning": "얼마, 몇",
+        "exampleZh": "这个多少钱？",
+        "exampleKo": "이것은 얼마입니까?"
+    },
+    {
+        "hanzi": "儿子",
+        "pinyin": "érzi",
+        "meaning": "아들",
+        "exampleZh": "她儿子三岁了。",
+        "exampleKo": "그녀의 아들은 세 살이 되었다."
+    },
+    {
+        "hanzi": "二",
+        "pinyin": "èr",
+        "meaning": "2, 둘",
+        "exampleZh": "现在是两点二十分。",
+        "exampleKo": "지금은 2시 20분이다."
+    },
+    {
+        "hanzi": "饭店",
+        "pinyin": "fàndiàn",
+        "meaning": "식당, 호텔",
+        "exampleZh": "中午我们在饭店吃饭。",
+        "exampleKo": "점심에 우리는 식당에서 밥을 먹는다."
+    },
+    {
+        "hanzi": "飞机",
+        "pinyin": "fēijī",
+        "meaning": "비행기",
+        "exampleZh": "他坐飞机去中国。",
+        "exampleKo": "그는 비행기를 타고 중국에 간다."
+    },
+    {
+        "hanzi": "分钟",
+        "pinyin": "fēnzhōng",
+        "meaning": "분",
+        "exampleZh": "我等你十分钟。",
+        "exampleKo": "나는 당신을 10분 기다리겠다."
+    },
+    {
+        "hanzi": "高兴",
+        "pinyin": "gāoxìng",
+        "meaning": "기쁘다",
+        "exampleZh": "认识你很高兴。",
+        "exampleKo": "당신을 알게 되어 매우 기쁩니다."
+    },
+    {
+        "hanzi": "个",
+        "pinyin": "gè",
+        "meaning": "개 (양사)",
+        "exampleZh": "我有一个问题。",
+        "exampleKo": "나는 질문이 하나 있다."
+    },
+    {
+        "hanzi": "工作",
+        "pinyin": "gōngzuò",
+        "meaning": "일, 일하다",
+        "exampleZh": "他在医院工作。",
+        "exampleKo": "그는 병원에서 일한다."
+    },
+    {
+        "hanzi": "狗",
+        "pinyin": "gǒu",
+        "meaning": "개",
+        "exampleZh": "我有一只小狗。",
+        "exampleKo": "나는 강아지가 한 마리 있다."
+    },
+    {
+        "hanzi": "好",
+        "pinyin": "hǎo",
+        "meaning": "좋다",
+        "exampleZh": "今天天气很好。",
+        "exampleKo": "오늘 날씨가 매우 좋다."
+    },
+    {
+        "hanzi": "号",
+        "pinyin": "hào",
+        "meaning": "일, 번",
+        "exampleZh": "今天是五月一号。",
+        "exampleKo": "오늘은 5월 1일이다."
+    },
+    {
+        "hanzi": "和",
+        "pinyin": "hé",
+        "meaning": "~와, ~과",
+        "exampleZh": "我和他是好朋友。",
+        "exampleKo": "나와 그는 좋은 친구이다."
+    },
+    {
+        "hanzi": "很",
+        "pinyin": "hěn",
+        "meaning": "매우, 아주",
+        "exampleZh": "他很高。",
+        "exampleKo": "그는 키가 매우 크다."
+    },
+    {
+        "hanzi": "后面",
+        "pinyin": "hòumiàn",
+        "meaning": "뒤",
+        "exampleZh": "医院在学校后面。",
+        "exampleKo": "병원은 학교 뒤에 있다."
+    },
+    {
+        "hanzi": "回",
+        "pinyin": "huí",
+        "meaning": "돌아가다, 돌아오다",
+        "exampleZh": "我下午回家。",
+        "exampleKo": "나는 오후에 집에 돌아간다."
+    },
+    {
+        "hanzi": "会",
+        "pinyin": "huì",
+        "meaning": "~할 줄 알다",
+        "exampleZh": "我会说汉语。",
+        "exampleKo": "나는 중국어를 할 줄 안다."
+    },
+    {
+        "hanzi": "几",
+        "pinyin": "jǐ",
+        "meaning": "몇",
+        "exampleZh": "你有几个苹果？",
+        "exampleKo": "너는 사과가 몇 개 있니?"
+    },
+    {
+        "hanzi": "叫",
+        "pinyin": "jiào",
+        "meaning": "부르다, ~라고 하다",
+        "exampleZh": "你叫什么名字？",
+        "exampleKo": "당신 이름은 무엇입니까?"
+    },
+    {
+        "hanzi": "九",
+        "pinyin": "jiǔ",
+        "meaning": "9, 아홉",
+        "exampleZh": "现在是九点。",
+        "exampleKo": "지금은 9시이다."
+    },
+    {
+        "hanzi": "开",
+        "pinyin": "kāi",
+        "meaning": "열다, 운전하다",
+        "exampleZh": "他会开车。",
+        "exampleKo": "그는 운전을 할 줄 안다."
+    },
+    {
+        "hanzi": "块",
+        "pinyin": "kuài",
+        "meaning": "위안 (돈 단위), 덩어리",
+        "exampleZh": "这本书十块钱。",
+        "exampleKo": "이 책은 10위안이다."
+    },
+    {
+        "hanzi": "来",
+        "pinyin": "lái",
+        "meaning": "오다",
+        "exampleZh": "他明天来中国。",
+        "exampleKo": "그는 내일 중국에 온다."
+    },
+    {
+        "hanzi": "冷",
+        "pinyin": "lěng",
+        "meaning": "춥다",
+        "exampleZh": "今天很冷。",
+        "exampleKo": "오늘은 매우 춥다."
+    },
+    {
+        "hanzi": "里",
+        "pinyin": "lǐ",
+        "meaning": "안, 속",
+        "exampleZh": "小猫在房间里。",
+        "exampleKo": "아기 고양이가 방 안에 있다."
+    },
+    {
+        "hanzi": "零",
+        "pinyin": "líng",
+        "meaning": "0, 영",
+        "exampleZh": "现在是两点零五分。",
+        "exampleKo": "지금은 2시 5분이다."
+    },
+    {
+        "hanzi": "六",
+        "pinyin": "liù",
+        "meaning": "6, 여섯",
+        "exampleZh": "星期六我不去学校。",
+        "exampleKo": "토요일에 나는 학교에 가지 않는다."
+    },
+    {
+        "hanzi": "妈妈",
+        "pinyin": "māma",
+        "meaning": "엄마",
+        "exampleZh": "我爱我的妈妈。",
+        "exampleKo": "나는 나의 엄마를 사랑한다."
+    },
+    {
+        "hanzi": "吗",
+        "pinyin": "ma",
+        "meaning": "~입니까? (의문 조사)",
+        "exampleZh": "你是医生吗？",
+        "exampleKo": "당신은 의사입니까?"
+    },
+    {
+        "hanzi": "猫",
+        "pinyin": "māo",
+        "meaning": "고양이",
+        "exampleZh": "这只猫很可爱。",
+        "exampleKo": "이 고양이는 귀엽다."
+    },
+    {
+        "hanzi": "没关系",
+        "pinyin": "méi guānxi",
+        "meaning": "괜찮습니다",
+        "exampleZh": "对不起！ - 没关系。",
+        "exampleKo": "미안합니다! - 괜찮습니다."
+    },
+    {
+        "hanzi": "没有",
+        "pinyin": "méiyǒu",
+        "meaning": "없다",
+        "exampleZh": "我没有钱。",
+        "exampleKo": "나는 돈이 없다."
+    },
+    {
+        "hanzi": "米饭",
+        "pinyin": "mǐfàn",
+        "meaning": "쌀밥",
+        "exampleZh": "我不爱吃米饭。",
+        "exampleKo": "나는 쌀밥 먹는 것을 즐기지 않는다."
+    },
+    {
+        "hanzi": "名字",
+        "pinyin": "míngzi",
+        "meaning": "이름",
+        "exampleZh": "他的名字叫大卫。",
+        "exampleKo": "그의 이름은 데이비드이다."
+    },
+    {
+        "hanzi": "哪",
+        "pinyin": "nǎ",
+        "meaning": "어느",
+        "exampleZh": "你是哪国人？",
+        "exampleKo": "당신은 어느 나라 사람입니까?"
+    },
+    {
+        "hanzi": "哪儿",
+        "pinyin": "nǎr",
+        "meaning": "어디",
+        "exampleZh": "你去哪儿？",
+        "exampleKo": "당신은 어디에 가십니까?"
+    },
+    {
+        "hanzi": "那",
+        "pinyin": "nà",
+        "meaning": "저것",
+        "exampleZh": "那是一只狗。",
+        "exampleKo": "저것은 개 한 마리이다."
+    },
+    {
+        "hanzi": "呢",
+        "pinyin": "ne",
+        "meaning": "~는요? (의문 조사)",
+        "exampleZh": "我是学生，你呢？",
+        "exampleKo": "나는 학생이야, 너는?"
+    },
+    {
+        "hanzi": "能",
+        "pinyin": "néng",
+        "meaning": "~할 수 있다",
+        "exampleZh": "你能帮我吗？",
+        "exampleKo": "나를 도와줄 수 있나요?"
+    },
+    {
+        "hanzi": "年",
+        "pinyin": "nián",
+        "meaning": "년, 해",
+        "exampleZh": "我明年去中国。",
+        "exampleKo": "나는 내년에 중국에 간다."
+    },
+    {
+        "hanzi": "女儿",
+        "pinyin": "nǚ'ér",
+        "meaning": "딸",
+        "exampleZh": "我的女儿四岁了。",
+        "exampleKo": "내 딸은 네 살이 되었다."
+    },
+    {
+        "hanzi": "苹果",
+        "pinyin": "píngguǒ",
+        "meaning": "사과",
+        "exampleZh": "我买了很多苹果。",
+        "exampleKo": "나는 사과를 많이 샀다."
+    },
+    {
+        "hanzi": "七",
+        "pinyin": "qī",
+        "meaning": "7, 일곱",
+        "exampleZh": "一个星期有七天。",
+        "exampleKo": "일주일은 7일이다."
+    },
+    {
+        "hanzi": "钱",
+        "pinyin": "qián",
+        "meaning": "돈",
+        "exampleZh": "他有很多钱。",
+        "exampleKo": "그는 돈이 많다."
+    },
+    {
+        "hanzi": "前面",
+        "pinyin": "qiánmiàn",
+        "meaning": "앞",
+        "exampleZh": "前面那个人是谁？",
+        "exampleKo": "앞에 있는 저 사람은 누구야?"
+    },
+    {
+        "hanzi": "请",
+        "pinyin": "qǐng",
+        "meaning": "청하다, ~해 주세요",
+        "exampleZh": "请坐。",
+        "exampleKo": "앉으세요."
+    },
+    {
+        "hanzi": "热",
+        "pinyin": "rè",
+        "meaning": "덥다",
+        "exampleZh": "今天天气太热了。",
+        "exampleKo": "오늘 날씨가 너무 덥다."
+    },
+    {
+        "hanzi": "人",
+        "pinyin": "rén",
+        "meaning": "사람",
+        "exampleZh": "商店里有很多人。",
+        "exampleKo": "상점 안에 사람이 많다."
+    },
+    {
+        "hanzi": "认识",
+        "pinyin": "rènshi",
+        "meaning": "알다, 인식하다",
+        "exampleZh": "我不认识他。",
+        "exampleKo": "나는 그를 모른다."
+    },
+    {
+        "hanzi": "三",
+        "pinyin": "sān",
+        "meaning": "3, 셋",
+        "exampleZh": "我家有三口人。",
+        "exampleKo": "우리 가족은 3명이다."
+    },
+    {
+        "hanzi": "商店",
+        "pinyin": "shāngdiàn",
+        "meaning": "상점, 가게",
+        "exampleZh": "我去商店买东西。",
+        "exampleKo": "나는 상점에 물건을 사러 간다."
+    },
+    {
+        "hanzi": "上",
+        "pinyin": "shàng",
+        "meaning": "위",
+        "exampleZh": "小猫在桌子上。",
+        "exampleKo": "아기 고양이가 책상 위에 있다."
+    },
+    {
+        "hanzi": "上午",
+        "pinyin": "shàngwǔ",
+        "meaning": "오전",
+        "exampleZh": "我上午在家看书。",
+        "exampleKo": "나는 오전에 집에서 책을 읽는다."
+    },
+    {
+        "hanzi": "谁",
+        "pinyin": "shéi",
+        "meaning": "누구",
+        "exampleZh": "那个人是谁？",
+        "exampleKo": "저 사람은 누구야?"
+    },
+    {
+        "hanzi": "什么",
+        "pinyin": "shénme",
+        "meaning": "무엇",
+        "exampleZh": "你喜欢吃什么？",
+        "exampleKo": "너는 무엇을 먹는 것을 좋아하니?"
+    },
+    {
+        "hanzi": "十",
+        "pinyin": "shí",
+        "meaning": "10, 열",
+        "exampleZh": "这本字典十块钱。",
+        "exampleKo": "이 사전은 10위안이다."
+    },
+    {
+        "hanzi": "时候",
+        "pinyin": "shíhou",
+        "meaning": "시간, 때",
+        "exampleZh": "你什么时候回家？",
+        "exampleKo": "너는 언제 집에 돌아가니?"
+    },
+    {
+        "hanzi": "是",
+        "pinyin": "shì",
+        "meaning": "~이다",
+        "exampleZh": "我是一个学生。",
+        "exampleKo": "나는 학생이다."
+    },
+    {
+        "hanzi": "书",
+        "pinyin": "shū",
+        "meaning": "책",
+        "exampleZh": "我喜欢看书。",
+        "exampleKo": "나는 책 읽는 것을 좋아한다."
+    },
+    {
+        "hanzi": "水",
+        "pinyin": "shuǐ",
+        "meaning": "물",
+        "exampleZh": "请给我一杯水。",
+        "exampleKo": "물 한 잔 주세요."
+    }
+]

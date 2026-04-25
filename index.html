@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zhanki - 중국어 단어 암기</title>
+    <meta name="description" content="Anki 방식의 간격 반복 학습으로 중국어 단어를 정복하세요.">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Noto+Sans+KR:wght@400;700&family=Noto+Sans+SC:wght@400;700&display=swap" rel="stylesheet">
+    <!-- Lucide Icons -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="app" class="app-container">
+        <!-- Navigation -->
+        <nav class="navbar">
+            <div class="nav-content">
+                <h1 class="logo">Zhanki<span>.</span></h1>
+                <div class="nav-links">
+                    <button id="btn-study" class="nav-btn active">
+                        <i data-lucide="book-open"></i>
+                        <span>학습하기</span>
+                    </button>
+                    <button id="btn-cards" class="nav-btn">
+                        <i data-lucide="layers"></i>
+                        <span>카드 목록</span>
+                    </button>
+                    <button id="btn-settings" class="nav-btn">
+                        <i data-lucide="settings"></i>
+                        <span>설정</span>
+                    </button>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Main Content -->
+        <main id="main-content">
+            <!-- Study View (Default) -->
+            <section id="view-study" class="view active">
+                <div class="study-stats">
+                    <div class="stat-item">
+                        <span class="label">오늘의 학습</span>
+                        <span id="count-due" class="value">0</span>
+                    </div>
+                </div>
+
+                <div class="card-container">
+                    <div id="flashcard" class="flashcard">
+                        <div class="card-content">
+                            <div id="hanzi-wrapper" class="hanzi-wrapper">
+                                <span id="card-hanzi" class="hanzi">--</span>
+                            </div>
+                            <div id="reveal-content" class="reveal-content hidden">
+                                <span id="card-pinyin" class="pinyin">--</span>
+                                <span id="card-meaning" class="meaning">--</span>
+                                <div class="example-box">
+                                    <p id="card-example-zh" class="example-zh">--</p>
+                                    <p id="card-example-ko" class="example-ko">--</p>
+                                </div>
+                            </div>
+                        </div>
+                        <p id="card-hint" class="hint">클릭해서 정답 확인</p>
+                    </div>
+                </div>
+
+                <div id="study-controls" class="study-controls hidden">
+                    <button class="srs-btn again" data-grade="0">
+                        <span class="interval"></span>
+                        <span class="label">다시</span>
+                    </button>
+                    <button class="srs-btn hard" data-grade="1">
+                        <span class="interval"></span>
+                        <span class="label">어려움</span>
+                    </button>
+                    <button class="srs-btn good" data-grade="2">
+                        <span class="interval"></span>
+                        <span class="label">괜찮음</span>
+                    </button>
+                    <button class="srs-btn easy" data-grade="3">
+                        <span class="interval"></span>
+                        <span class="label">쉬움</span>
+                    </button>
+                </div>
+            </section>
+
+            <!-- Cards View -->
+            <section id="view-cards" class="view">
+                <header class="section-header">
+                    <h2>내 카드 목록</h2>
+                    <!-- 카드 추가 기능은 JSON 관리를 위해 숨김 처리 -->
+                    <div style="display:none">
+                        <button id="btn-add-card" class="btn-primary">
+                            <i data-lucide="plus"></i>
+                            <span>카드 추가</span>
+                        </button>
+                    </div>
+                </header>
+                <div class="card-list-container">
+                    <table class="card-table">
+                        <thead>
+                            <tr>
+                                <th>한자</th>
+                                <th>병음</th>
+                                <th>뜻</th>
+                                <th>다음 학습</th>
+                                <th>관리</th>
+                            </tr>
+                        </thead>
+                        <tbody id="card-list-body">
+                            <!-- Cards will be injected here -->
+                        </tbody>
+                    </table>
+                </div>
+            </section>
+
+            <!-- Settings View -->
+            <section id="view-settings" class="view">
+                <header class="section-header">
+                    <h2>설정</h2>
+                </header>
+                <div class="settings-content">
+                    <div class="settings-group">
+                        <h3>학습 설정</h3>
+                        <div class="settings-item">
+                            <label for="new-cards-limit">하루 새 단어 학습량</label>
+                            <div class="input-with-hint">
+                                <input type="number" id="new-cards-limit" min="0" max="100" value="20">
+                                <span class="hint">오늘 처음 학습할 새 단어의 최대 개수입니다.</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="settings-group">
+                        <h3>데이터 관리</h3>
+                        <div class="settings-item">
+                            <p>학습 데이터를 JSON 파일로 내보내거나 가져옵니다.</p>
+                            <div class="btn-group">
+                                <button id="btn-export" class="btn-secondary">데이터 내보내기</button>
+                                <button id="btn-import" class="btn-secondary">데이터 가져오기</button>
+                                <input type="file" id="import-file" style="display: none;" accept=".json">
+                            </div>
+                        </div>
+                        <div class="settings-item danger-zone">
+                            <p>학습 기록만 초기화하고 단어는 그대로 유지합니다.</p>
+                            <button id="btn-reset-progress" class="btn-outline-danger">학습 기록 초기화</button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <!-- Modals -->
+        <div id="modal-card-form" class="modal">
+            <div class="modal-content">
+                <h3 id="modal-title">카드 추가</h3>
+                <form id="card-form">
+                    <input type="hidden" id="field-id">
+                    <div class="form-group">
+                        <label for="field-hanzi">한자</label>
+                        <input type="text" id="field-hanzi" required placeholder="예: 学习">
+                    </div>
+                    <div class="form-group">
+                        <label for="field-pinyin">병음</label>
+                        <input type="text" id="field-pinyin" required placeholder="예: xuéxí">
+                    </div>
+                    <div class="form-group">
+                        <label for="field-meaning">뜻</label>
+                        <input type="text" id="field-meaning" required placeholder="예: 배우다, 공부하다">
+                    </div>
+                    <div class="form-group">
+                        <label for="field-example-zh">예문 (중국어)</label>
+                        <textarea id="field-example-zh" rows="2"></textarea>
+                    </div>
+                    <div class="form-group">
+                        <label for="field-example-ko">예문 (한국어)</label>
+                        <textarea id="field-example-ko" rows="2"></textarea>
+                    </div>
+                    <div class="modal-actions">
+                        <button type="button" class="btn-text" id="btn-close-modal">취소</button>
+                        <button type="submit" class="btn-primary">저장</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <script src="js/db.js?v=2"></script>
+    <script src="js/srs.js?v=2"></script>
+    <script src="js/app.js?v=2"></script>
+    <script>
+        // Initialize Lucide icons
+        lucide.createIcons();
+    </script>
+</body>
+</html>
